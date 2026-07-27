@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Her Digital Grind | Build a Real Digital Product Business</title>
+<meta name="description" content="A step-by-step system for launching your first digital product: templates, pricing guides, and a real launch checklist. No fluff, no fake urgency.">
+
+<!-- Open Graph so this looks right when shared on IG/TikTok -->
+<meta property="og:title" content="Her Digital Grind — Build a Real Digital Product Business">
+<meta property="og:description" content="A step-by-step system for launching your first digital product.">
+<meta property="og:type" content="website">
+<!-- TODO: swap in a real 1200x630 social share image -->
+<meta property="og:image" content="https://images.pexels.com/photos/6608170/pexels-photo-6608170.jpeg?auto=compress&cs=tinysrgb&w=1200">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com/3.4.17"></script>
+
+<style>
+  :root{
+    --paper:#f8f5f1;
+    --paper-dim:#E9E2D2;
+    --ink:#211C16;
+    --ink-soft:#3f2420;
+    --brick:#B23A2E;
+    --pine:#33503F;
+    --line:#d4b483;
+  }
+  body{ font-family:'Work Sans', sans-serif; background:var(--paper); color:var(--ink); }
+  .font-display{ font-family:'Fraunces', serif; }
+  .font-mono{ font-family:'IBM Plex Mono', monospace; letter-spacing:0.02em; }
+  .rule{ border-top:1px dashed var(--line); }
+  .rule-solid{ border-top:1px solid var(--ink); }
+  .stamp{
+    border:2px solid var(--brick); color:var(--brick);
+    transform:rotate(-4deg);
+    font-family:'IBM Plex Mono', monospace;
+  }
+  .fade-in{ opacity:0; transform:translateY(24px); transition:opacity .6s ease, transform .6s ease; }
+  .fade-in.visible{ opacity:1; transform:translateY(0); }
+  ::selection{ background:var(--brick); color:var(--paper); }
+  a:focus-visible, button:focus-visible{ outline:2px solid var(--pine); outline-offset:3px; }
+  @media (prefers-reduced-motion: reduce){
+    .fade-in{ transition:none; opacity:1; transform:none; }
+  }
+</style>
+</head>
+
+<body class="w-full min-h-screen">
+
+<!-- ===== Header / ticket number bar ===== -->
+<div class="w-full font-mono text-xs tracking-wider py-2 px-6 flex justify-between" style="background:var(--ink); color:var(--paper);">
+  <span>HER DIGITAL GRIND — LAUNCH KIT No. 07</span>
+  <span>ISSUE DATE: <!-- TODO: real date --> 2026</span>
+</div>
+
+<!-- ===== Hero ===== -->
+<header class="relative w-full">
+  <img
+    src="https://images.pexels.com/photos/6608170/pexels-photo-6608170.jpeg?auto=compress&cs=tinysrgb&w=1920"
+    alt="Woman working on a laptop at a home desk"
+    class="absolute inset-0 w-full h-full object-cover"
+    fetchpriority="high"
+  >
+  <div class="absolute inset-0" style="background:linear-gradient(180deg, rgba(33,28,22,.55) 0%, rgba(33,28,22,.85) 100%);"></div>
+
+  <div class="relative z-10 max-w-4xl mx-auto px-6 pt-28 pb-24 text-center" style="color:var(--paper);">
+    <p class="font-mono text-xs uppercase tracking-[0.3em] mb-6 opacity-80">A Digital Product Launch Kit</p>
+    <h1 class="font-display font-semibold leading-[1.05] mb-6" style="font-size:clamp(2.2rem, 5vw, 3.6rem);">
+      A real plan for your first digital product — not another aesthetic.
+    </h1>
+    <p class="max-w-xl mx-auto text-base md:text-lg opacity-90 mb-10">
+      The templates, pricing math, and launch checklist behind <!-- TODO: real, specific claim --> one creator's first paid product. Everything is shown, nothing is promised.
+    </p>
+    <a href="https://shop.beacons.ai/her_digital_grind/065ea15f-6566-42ad-880f-f9ba80b810bf?utm_source=landing&utm_medium=cta&utm_campaign=hero"
+       target="_blank" rel="noopener noreferrer"
+       class="inline-block px-9 py-4 font-mono text-sm uppercase tracking-widest transition-transform hover:scale-[1.03]"
+       style="background:var(--brick); color:var(--paper);">
+      See what's inside — $<!-- TODO: real price -->5
+    </a>
+    <p class="mt-4 text-xs font-mono opacity-70">One-time payment · <!-- TODO --> 14-day refund policy</p>
+  </div>
+</header>
+
+<!-- ===== Proof strip: honest, sourced ===== -->
+<section class="w-full py-8" style="background:var(--paper-dim);" data-template-id="proof-bar">
+  <div class="max-w-4xl mx-auto px-6 flex flex-wrap justify-center gap-x-12 gap-y-4 font-mono text-xs uppercase tracking-wider" style="color:var(--ink-soft);">
+    <span>Made by Ines Smith </span>
+  </div>
+</section>
+
+<!-- ===== What's actually inside ===== -->
+<main class="w-full max-w-4xl mx-auto px-6 py-24">
+  <div class="fade-in mb-14">
+    <p class="font-mono text-xs uppercase tracking-widest mb-3" style="color:var(--brick);">Contents</p>
+    <h2 class="font-display font-semibold" style="font-size:clamp(1.6rem,3.5vw,2.4rem);">What's inside the kit</h2>
+  </div>
+
+  <div class="fade-in rule-solid">
+    <!-- Ledger-style module list. Replace items with your real curriculum. -->
+    <div class="rule flex items-baseline justify-between py-5">
+      <div>
+        <p class="font-mono text-xs mb-1" style="color:var(--ink-soft);">01</p>
+        <h3 class="font-display font-semibold text-lg">Picking a product idea that can actually sell</h3>
+        <p class="text-sm mt-1" style="color:var(--ink-soft);">Access to PLR, MRR, & resellable digital products you can instantly monetize</p>
+      </div>
+    </div>
+    <div class="rule flex items-baseline justify-between py-5">
+      <div>
+        <p class="font-mono text-xs mb-1" style="color:var(--ink-soft);">02</p>
+        <h3 class="font-display font-semibold text-lg">Pricing without guessing</h3>
+        <p class="text-sm mt-1" style="color:var(--ink-soft);">A simple calculator and worked examples.</p>
+      </div>
+    </div>
+    <div class="rule flex items-baseline justify-between py-5">
+      <div>
+        <p class="font-mono text-xs mb-1" style="color:var(--ink-soft);">03</p>
+        <h3 class="font-display font-semibold text-lg">Launch templates</h3>
+        <p class="text-sm mt-1" style="color:var(--ink-soft);"><!-- TODO: name the actual number of templates --> Monthly drops of new templates, ebooks, lead magnets & content packs</p>
+      </div>
+    </div>
+    <div class="rule flex items-baseline justify-between py-5">
+      <div>
+        <p class="font-mono text-xs mb-1" style="color:var(--ink-soft);">04</p>
+        <h3 class="font-display font-semibold text-lg">A lot more ! </h3>
+        <p class="text-sm mt-1" style="color:var(--ink-soft);"> Canva, Notion & AI tools to save time & boost sales, 
+          live challenges, Q&As, and collab pop-ups</p>
+      </div>
+    </div>
+  </div>
+
+  <p class="fade-in text-xs mt-6" style="color:var(--ink-soft);">
+    Format: <!-- TODO --> PDF / Notion · Access: instant download
+  </p>
+</main>
+
+<!-- ===== Testimonials: framed honestly ===== -->
+<section class="w-full py-20" style="background:var(--paper-dim);">
+  <div class="max-w-4xl mx-auto px-6">
+    <div class="fade-in mb-12 text-center">
+      <p class="font-mono text-xs uppercase tracking-widest mb-3" style="color:var(--brick);">From customers</p>
+      <h2 class="font-display font-semibold" style="font-size:clamp(1.6rem,3.5vw,2.2rem);">In their words</h2>
+    </div>
+
+    <!--
+      TODO: Replace these three cards with real customer quotes.
+      Use a real photo the customer gave you permission to use, a screenshot
+      of their message, or just initials + first name — no stock headshots.
+      A verified quote with no photo is more trustworthy than a stock one.
+    -->
+    <div class="fade-in grid md:grid-cols-3 gap-6">
+      <div class="p-6" style="border:1px solid var(--line); background:var(--paper);">
+        <p class="text-sm italic mb-4" style="color:var(--ink-soft);">"[[ real quote here ]]"</p>
+        <p class="font-mono text-xs" style="color:var(--pine);">— [[ First name, initial ]]</p>
+      </div>
+      <div class="p-6" style="border:1px solid var(--line); background:var(--paper);">
+        <p class="text-sm italic mb-4" style="color:var(--ink-soft);">"[[ real quote here ]]"</p>
+        <p class="font-mono text-xs" style="color:var(--pine);">— [[ First name, initial ]]</p>
+      </div>
+      <div class="p-6" style="border:1px solid var(--line); background:var(--paper);">
+        <p class="text-sm italic mb-4" style="color:var(--ink-soft);">"[[ real quote here ]]"</p>
+        <p class="font-mono text-xs" style="color:var(--pine);">— [[ First name, initial ]]</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Guarantee stamp instead of fake urgency ===== -->
+<section class="w-full max-w-4xl mx-auto px-6 py-20 flex flex-col md:flex-row items-center gap-10">
+  <div class="stamp shrink-0 w-32 h-32 rounded-full flex items-center justify-center text-center font-mono text-xs uppercase p-4">
+    <!-- TODO: only claim what's actually true -->
+    14-day<br>refund<br>guarantee
+  </div>
+  <div class="fade-in">
+    <h2 class="font-display font-semibold mb-3" style="font-size:clamp(1.4rem,3vw,1.9rem);">If it's not useful, send it back.</h2>
+    <p class="text-sm" style="color:var(--ink-soft); max-width:32rem;">
+      No expiring countdown, no fake scarcity. <!-- TODO: real, honest reason to act now if one exists — e.g. a real cohort start date, a real bonus that expires on a stated date --> If there's a real deadline, it goes here with an actual date.
+    </p>
+  </div>
+</section>
+
+<!-- ===== Final CTA ===== -->
+<section class="w-full py-24 text-center px-6" style="background:var(--ink); color:var(--paper);">
+  <p class="font-mono text-xs uppercase tracking-widest mb-4 opacity-70">Ready when you are</p>
+  <h2 class="font-display font-semibold mb-6" style="font-size:clamp(1.8rem,4vw,2.6rem);">Get the launch kit.</h2>
+  <a href="https://shop.beacons.ai/her_digital_grind/065ea15f-6566-42ad-880f-f9ba80b810bf?utm_source=landing&utm_medium=cta&utm_campaign=final"
+     target="_blank" rel="noopener noreferrer"
+     class="inline-block px-9 py-4 font-mono text-sm uppercase tracking-widest transition-transform hover:scale-[1.03]"
+     style="background:var(--brick); color:var(--paper);">
+    Get instant access — $<!-- TODO: price -->5
+  </a>
+</section>
+
+<footer class="w-full text-center py-8 font-mono text-xs" style="color:var(--ink-soft);">
+  © 2026 Her Digital Grind ·
+  <!-- TODO: add a real results/income disclaimer if you make any income claims anywhere on the page -->
+  Results vary and are not guaranteed.
+</footer>
+
+<script>
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); } });
+  }, { threshold: 0.15 });
+  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>
